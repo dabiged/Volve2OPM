@@ -25,11 +25,10 @@ To run the files execute the following command
 ```
 
 ### Results
-Here the OPM modified OPM simluation is compared directly with the Equnior provided model run with ECLIPSE.
-There are some clear difference between the two (e.g. the Equinor model has additonal wells, modified permeability etc). However the results are very similar over this time scale.
+Here the modified OPM simulation is compared directly with the Equnior provided model run with ECLIPSE.
+There are some clear difference between the two (e.g. the Equinor model has additonal wells, modified permeability am additional faults etc). Encouragingly the results are very similar over this time scale.
 
 ![](OPMvsEclipse.gif)
-
 
 ## Authors
 
