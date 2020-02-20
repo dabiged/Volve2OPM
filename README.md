@@ -31,15 +31,9 @@ There are some clear difference between the two (e.g. the Equinor model has addi
 ![](OPMvsEclipse.gif)
 
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## Authors
 
-* **Chris Dinneen** - *Initial work* - [Chris Dinneen](https://github.com/dbiged)
+* [Chris Dinneen](https://github.com/dbiged)
 
 ## License
 
