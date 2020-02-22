@@ -25,7 +25,6 @@
 -- METRIC UNITS
 -- SIMULATION START DATE 1 'JAN' 2008
 
-
 GRUPTREE 
    'PJ1'     'FIELD'  /
    'AAR'     'PJ1'  /
@@ -4860,19 +4859,17 @@ WCONINJE
     'I-F-4'     'WATER'  1*      'RATE'    649.900  5* /
 /
 
--- Working up to here
-
---  -- put data manullay
---  DATES
---   1 'JAN' 2015 /
---  /
---  WCONHIST 
---     'P-F-14'      'OPEN'      'ORAT'    298.200   3138.700  43367.000  3*    262.000  1* /
---    'P-F-11B'      'OPEN'      'ORAT'   1057.900    482.200 139246.300  3*    267.300  1* /
---    'P-F-15D'      'OPEN'      'ORAT'    236.300      7.020  31475.200  3*    248.800  1* /
---     'P-F-12'      'OPEN'      'ORAT'    933.200    206.100 121140.400  5* /
---     'P-F-1C'      'OPEN'      'ORAT'    803.670    399.850  87845.400  3*    281.300  1* /
-
+-- put data manullay
+DATES
+ 1 'JAN' 2015 /
+/
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    298.200   3138.700  43367.000  3*    262.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1057.900    482.200 139246.300  3*    267.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    236.300      7.020  31475.200  3*    248.800  1* /
+   'P-F-12'      'OPEN'      'ORAT'    933.200    206.100 121140.400  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    803.670    399.850  87845.400  3*    281.300  1* /
+/
 
 -- 2560.000000 days from start of simulation ( 1 'JAN' 2008 )
 DATES
