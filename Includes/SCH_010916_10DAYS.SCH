@@ -41,7 +41,7 @@ WCONHIST
     'I-F-4'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
    'P-F-12'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
 --  'P-F-15A'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
---  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
+  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
   'P-F-15C'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* / 
     'PIL-NW'      'SHUT'      'ORAT'      0.000      0.000      0.000  5* /
 /
@@ -3800,3 +3800,2591 @@ WCONINJE
     'I-F-1B'     'WATER'  1*      'RATE'   1035    5* /
 /
 
+-- 2200.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 9 'JAN' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    580.200   3298.800  97561.300  3*    252.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1281.000    116.300 181711.400  3*    245.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    129.800      0.000  18214.000  3*    307.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    280.300   4589.900  47117.400  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5355.400  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5879.500  5* /
+        'I-F-1B'     'WATER'  1*      'RATE'   450    5* /
+/
+
+
+DATES
+ 16 'JAN' 2014 /
+/
+
+COMPDAT 
+--
+   'P-F-15D'   69   53    1    1      'SHUT'    2*   0.216   3*         'X'      4.795 /
+   'P-F-15D'   69   53    3    3      'SHUT'    2*   0.216   3*         'X'      4.785 /
+   'P-F-15D'   69   53    4    4      'SHUT'    2*   0.216   3*         'X'      4.779 /
+   'P-F-15D'   69   53    5    5      'SHUT'    2*   0.216   3*         'X'      4.774 /
+   'P-F-15D'   69   53    6    6      'SHUT'    2*   0.216   3*         'X'      4.217 /
+   'P-F-15D'   69   53    7    7      'SHUT'    2*   0.216   3*         'X'      4.275 /
+   'P-F-15D'   69   53    8    8      'SHUT'    2*   0.216   3*         'X'      4.293 /
+   'P-F-15D'   69   53    9    9      'SHUT'    2*   0.216   3*         'X'      4.307 /
+   'P-F-15D'   69   53   10   10      'SHUT'    2*   0.216   3*         'X'      4.322 /
+   'P-F-15D'   69   53   11   11      'SHUT'    2*   0.216   3*         'X'      4.703 /
+   'P-F-15D'   70   53   11   11      'SHUT'    2*   0.216   3*         'X'      4.443 /
+   'P-F-15D'   70   53   10   10      'SHUT'    2*   0.216   3*         'X'      3.977 /
+   'P-F-15D'   70   53    9    9      'SHUT'    2*   0.216   3*         'X'      3.909 /
+   'P-F-15D'   71   53   12   12      'SHUT'    2*   0.216   3*         'X'      4.674 /
+   'P-F-15D'   71   53   13   13      'SHUT'    2*   0.216   3*         'X'      4.595 /
+   'P-F-15D'   72   53   14   14      'SHUT'    2*   0.216   3*         'X'      4.953 /
+   'P-F-15D'   72   53   16   16      'SHUT'    2*   0.216   3*         'X'      3.566 /
+   'P-F-15D'   72   53   17   17      'SHUT'    2*   0.216   3*         'X'      5.275 /
+   'P-F-15D'   72   53   18   18      'SHUT'    2*   0.216   3*         'X'      5.687 /
+   'P-F-15D'   72   53   19   19      'SHUT'    2*   0.216   3*         'X'      5.701 /
+   'P-F-15D'   72   53   20   20      'SHUT'    2*   0.216   3*         'X'      5.715 /
+   'P-F-15D'   72   53   21   21      'SHUT'    2*   0.216   3*         'X'      5.729 /
+   'P-F-15D'   72   53   22   22      'SHUT'    2*   0.216   3*         'X'      5.743 /
+   'P-F-15D'   73   53   22   22      'SHUT'    2*   0.216   3*         'X'      5.905 /
+   'P-F-15D'   73   53   21   21      'SHUT'    2*   0.216   3*         'X'      5.895 /
+   'P-F-15D'   73   53   20   20      'SHUT'    2*   0.216   3*         'X'      5.887 /
+   'P-F-15D'   73   53   19   19      'SHUT'    2*   0.216   3*         'X'      5.875 /
+   'P-F-15D'   73   53   18   18      'SHUT'    2*   0.216   3*         'X'      5.865 /
+   'P-F-15D'   73   53   17   17      'SHUT'    2*   0.216   3*         'X'      5.856 /
+   'P-F-15D'   73   53   16   16      'SHUT'    2*   0.216   3*         'X'      4.563 /
+   'P-F-15D'   73   53   15   15      'SHUT'    2*   0.216   3*         'X'      5.472 /
+   'P-F-15D'   73   53   13   13      'SHUT'    2*   0.216   3*         'X'      5.440 /
+   'P-F-15D'   73   53   11   11      'SHUT'    2*   0.216   3*         'X'      5.408 /
+   'P-F-15D'   73   53   10   10      'SHUT'    2*   0.216   3*         'X'      4.940 /
+   'P-F-15D'   73   53    9    9      'SHUT'    2*   0.216   3*         'X'      4.905 /
+   'P-F-15D'   73   53    8    8      'SHUT'    2*   0.216   3*         'X'      4.870 /
+   'P-F-15D'   73   53    7    7      'SHUT'    2*   0.216   3*         'X'      4.967 /
+   'P-F-15D'   73   53    6    6      'SHUT'    2*   0.216   3*         'X'      5.214 /
+   'P-F-15D'   73   53    5    5      'SHUT'    2*   0.216   3*         'X'      5.547 /
+   'P-F-15D'   73   53    4    4      'SHUT'    2*   0.216   3*         'X'      5.530 /
+   'P-F-15D'   73   53    3    3      'SHUT'    2*   0.216   3*         'X'      5.512 /
+   'P-F-15D'   73   52    3    3      'SHUT'    2*   0.216   3*         'X'      5.894 /
+   'P-F-15D'   73   52    2    2      'SHUT'    2*   0.216   3*         'X'      5.949 /
+   'P-F-15D'   73   52    1    1      'SHUT'    2*   0.216   3*         'X'      5.933 /
+   'P-F-15D'   74   52    1    1      'SHUT'    2*   0.216   3*         'X'      4.877 /
+   'P-F-15D'   75   52    2    2      'SHUT'    2*   0.216   3*         'X'      4.667 /
+   'P-F-15D'   75   52    3    3      'OPEN'    2*   0.216   3*         'X'      4.670 /
+   'P-F-15D'   75   52    4    4      'SHUT'    2*   0.216   3*         'X'      4.840 /
+   'P-F-15D'   75   52    5    5      'SHUT'    2*   0.216   3*         'X'      5.400 /
+   'P-F-15D'   75   52    6    6      'SHUT'    2*   0.216   3*         'X'      5.118 /
+   'P-F-15D'   75   52    7    7      'OPEN'    2*   0.216   3*         'X'      5.100 /
+   'P-F-15D'   75   52    8    8      'SHUT'    2*   0.216   3*         'X'      5.084 /
+   'P-F-15D'   75   52    9    9      'SHUT'    2*   0.216   3*         'X'      5.067 /
+   'P-F-15D'   75   52   10   10      'SHUT'    2*   0.216   3*         'X'      4.892 /
+   'P-F-15D'   76   52   11   11      'SHUT'    2*   0.216   3*         'X'      5.336 /
+   'P-F-15D'   76   52   10   10      'SHUT'    2*   0.216   3*         'X'      4.853 /
+   'P-F-15D'   76   51   10   10      'SHUT'    2*   0.216   3*         'X'      4.263 /
+   'P-F-15D'   76   51    9    9      'SHUT'    2*   0.216   3*         'X'      4.203 /
+   'P-F-15D'   76   51   11   11      'SHUT'    2*   0.216   3*         'X'      4.849 /
+   'P-F-15D'   77   51   11   11      'SHUT'    2*   0.216   3*         'X'      4.951 /
+   'P-F-15D'   77   51   12   12      'SHUT'    2*   0.216   3*         'X'      4.925 /
+   'P-F-15D'   78   51   12   12      'SHUT'    2*   0.216   3*         'X'      5.002 /
+   'P-F-15D'   78   50   12   12      'SHUT'    2*   0.216   3*         'X'      4.924 /
+   'P-F-15D'   78   50   11   11      'SHUT'    2*   0.216   3*         'X'      5.016 /
+   'P-F-15D'   78   50   10   10      'SHUT'    2*   0.216   3*         'X'      4.438 /
+   'P-F-15D'   78   50    8    8      'SHUT'    2*   0.216   3*         'X'      4.455 /
+   'P-F-15D'   78   50    7    7      'OPEN'    2*   0.216   3*         'X'      4.464 /
+   'P-F-15D'   78   50    6    6      'SHUT'    2*   0.216   3*         'X'      4.473 /
+   'P-F-15D'   79   50    6    6      'SHUT'    2*   0.216   3*         'X'      4.360 /
+   'P-F-15D'   79   50    7    7      'SHUT'    2*   0.216   3*         'X'      4.361 /
+   'P-F-15D'   80   50    7    7      'OPEN'    2*   0.216   3*         'X'      4.318 /
+   'P-F-15D'   80   50    6    6      'SHUT'    2*   0.216   3*         'X'      4.505 /
+   'P-F-15D'   80   50    5    5      'SHUT'    2*   0.216   3*         'X'      5.050 /
+   'P-F-15D'   80   49    5    5      'SHUT'    2*   0.216   3*         'X'      5.057 /
+   'P-F-15D'   80   49    4    4      'SHUT'    2*   0.216   3*         'X'      5.034 /
+   'P-F-15D'   80   49    3    3      'OPEN'    2*   0.216   3*         'X'      5.012 /
+   'P-F-15D'   80   49    2    2      'SHUT'    2*   0.216   3*         'X'      4.991 /
+   'P-F-15D'   81   49    2    2      'SHUT'    2*   0.216   3*         'X'      4.935 /
+   'P-F-15D'   81   49    3    3      'SHUT'    2*   0.216   3*         'X'      4.970 /
+   'P-F-15D'   82   49    3    3      'OPEN'    2*   0.216   3*         'X'      4.909 /
+   'P-F-15D'   82   49    2    2      'SHUT'    2*   0.216   3*         'X'      4.884 /
+   'P-F-15D'   82   48    2    2      'SHUT'    2*   0.216   3*         'X'      4.836 /
+   'P-F-15D'   83   48    2    2      'SHUT'    2*   0.216   3*         'X'      4.764 /
+   'P-F-15D'   83   48    3    3      'OPEN'    2*   0.216   3*         'X'      4.795 /
+   'P-F-15D'   83   48    4    4      'SHUT'    2*   0.216   3*         'X'      4.827 /
+   'P-F-15D'   83   48    5    5      'SHUT'    2*   0.216   3*         'X'      4.840 /
+/
+
+-- high rate at the first day
+WCONHIST 
+  'P-F-15D'      'OPEN'      'ORAT'    534.900      0.000  20205.500  3*    307.000  1* /
+/
+
+DATES
+ 17 'JAN' 2014 /
+/
+
+WCONHIST 
+  'P-F-15D'      'OPEN'      'ORAT'    434.900      0.000  20205.500  3*    220.000  1* /
+/
+
+-- 2210.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 19 'JAN' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    550.100   3593.000  87902.400  3*    252.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1208.500    125.800 162833.200  3*    244.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    403.100      0.000  54402.600  3*    203.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'     77.800   1414.000  12278.500  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4330.700  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4724.000  5* /
+    'I-F-1B'     'WATER'  1*      'RATE'   0    5* /  
+/
+
+-- 2220.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 29 'JAN' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    350.400   2285.500  58273.700  3*    254.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    835.000     87.200 117205.600  3*    245.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    216.500      0.000  30386.500  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    168.000   3299.800  27956.500  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   3414.000  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   3444.900  5* /
+    'I-F-1B'     'WATER'  1*      'RATE'   0    5* /
+/
+
+-- 2230.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 8 'FEB' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    468.800   2973.800  78347.700  3*    260.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    912.700     94.600 128862.200  3*    258.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    308.100      0.000  43440.000  3*    218.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    188.500   3674.400  31513.700  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4800.500  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4694.800  5* /
+/
+
+-- 2240.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 18 'FEB' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    510.900   3390.400  85798.400  3*    259.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1251.100    136.300 177279.300  3*    253.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    261.400      0.000  37015.500  3*    208.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    245.000   5024.000  41148.300  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5749.400  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5099.700  5* /
+/
+
+-- 2250.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 28 'FEB' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    522.000   3402.600  87385.200  3*    254.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1324.400    144.700 187106.000  3*    240.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    233.700      0.000  33021.100  3*    201.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    245.300   5022.800  41072.700  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5779.700  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5631.000  5* /
+/
+
+-- 2260.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 10 'MAR' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    523.600   3414.000  87400.700  3*    255.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1365.400    153.200 192357.000  3*    235.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    219.000      0.000  30834.900  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    241.600   5033.700  40330.200  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5991.200  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5487.600  5* /
+/
+
+-- 2270.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 20 'MAR' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    323.200   2242.400  55297.500  3*    255.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    748.100     91.800 107568.800  3*    235.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    127.400      0.000  18362.500  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    132.500   2935.100  22588.700  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4337.600  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   3829.900  5* /
+/
+
+-- 2280.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 30 'MAR' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    469.800   3258.400  78933.900  3*    256.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1159.100    148.000 164430.800  3*    236.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    190.100      0.000  26931.400  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    207.500   4510.200  34897.900  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   6007.400  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5295.400  5* /
+/
+
+-- 2290.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 9 'APR' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    484.800   3443.000  82028.400  3*    256.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1308.300    178.900 187112.200  3*    235.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    204.400      0.000  29249.600  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    235.000   5152.000  39841.900  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5950.500  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6332.800  5* /
+/
+
+-- 2300.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 19 'APR' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    502.800   3253.700  83933.300  3*    257.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1360.300    177.100 191637.900  3*    235.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    207.100      0.000  29195.200  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    242.300   4747.600  40466.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.00   3*    305.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5290.100  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6454.300  5* /
+/
+
+DATES
+ 22 'APR' 2014 /
+/
+
+COMPDAT 
+--
+-- WELL        I    J    K1  K2            Sat.        CF       DIAM        KH SKIN ND        DIR   Ro 
+   'P-F-1C'   57   51    6    6      'SHUT'  2*    	 0.154    3*	     'Y'      6.214 /
+   'P-F-1C'   57   51    7    7      'SHUT'  2*    	 0.154    3*	     'Y'      6.284 /
+   'P-F-1C'   57   51    8    8      'SHUT'  2*    	 0.154    3*	     'Y'      4.271 /
+   'P-F-1C'   57   51    9    9      'SHUT'  2*    	 0.154    3*	     'Y'      4.250 /
+   'P-F-1C'   58   51    9    9      'SHUT'  2*    	 0.154    3*	     'Y'      4.278 /
+   'P-F-1C'   58   51   10   10      'SHUT'  2*    	 0.154    3*	     'Y'      4.329 /
+   'P-F-1C'   58   52   10   10      'SHUT'  2*    	 0.154    3*	     'Y'      4.177 /
+   'P-F-1C'   58   52   11   11      'SHUT'  2*    	 0.154    3*	     'Y'      4.761 /
+   'P-F-1C'   58   52   13   13      'SHUT'  2*    	 0.154    3*	     'Y'      4.794 /
+   'P-F-1C'   58   52   15   15      'SHUT'  2*    	 0.154    3*	     'Y'      5.165 /
+   'P-F-1C'   58   52   18   18      'SHUT'  2*    	 0.154    3*	     'Y'      5.499 /
+   'P-F-1C'   58   52   19   19      'SHUT'  2*    	 0.154    3*	     'Y'      5.559 /
+   'P-F-1C'   58   53   19   19      'SHUT'  2*    	 0.154    3*	     'Y'      5.353 /
+   'P-F-1C'   59   53   19   19      'SHUT'  2*    	 0.154    3*	     'Y'      5.486 /
+   'P-F-1C'   59   53   18   18      'SHUT'  2*    	 0.154    3*	     'Y'      5.028 /
+   'P-F-1C'   59   53   21   21      'SHUT'  2*    	 0.154    3*	     'Y'      5.486 /
+   'P-F-1C'   59   53   22   22      'SHUT'  2*    	 0.154    3*	     'X'      5.975 /
+   'P-F-1C'   59   53   23   23      'SHUT'  2*    	 0.154    3*	     'X'      5.976 /
+   'P-F-1C'   59   53   24   24      'SHUT'  2*    	 0.154    3*	     'X'      5.978 /
+   'P-F-1C'   59   53   25   25      'SHUT'  2*    	 0.154    3*	     'X'      5.979 /
+   'P-F-1C'   59   53   26   26      'SHUT'  2*    	 0.154    3*	     'X'      5.664 /
+   'P-F-1C'   59   53   27   27      'SHUT'  2*    	 0.154    3*	     'X'      5.667 /
+   'P-F-1C'   60   53   28   28      'SHUT'  2*    	 0.154    3*	     'Y'      6.115 /
+   'P-F-1C'   60   53   29   29      'SHUT'  2*    	 0.154    3*	     'Y'      6.133 /
+   'P-F-1C'   60   54   29   29      'SHUT'  2*    	 0.154    3*	     'Y'      6.106 /
+   'P-F-1C'   60   54   30   30      'SHUT'  2*    	 0.154    3*	     'Y'      6.093 /
+   'P-F-1C'   60   54   31   31      'SHUT'  2*    	 0.154    3*	     'Y'      6.089 /
+   'P-F-1C'   60   54   32   32      'SHUT'  2*    	 0.154    3*	     'Y'      6.086 /
+   'P-F-1C'   60   54   33   33      'SHUT'  2*    	 0.154    3*	     'Y'      6.082 /
+   'P-F-1C'   60   54   34   34      'SHUT'  2*    	 0.154    3*	     'Y'      6.079 /
+   'P-F-1C'   60   54   36   36      'SHUT'  2*    	 0.154    3*	     'Y'      6.070 /
+   'P-F-1C'   60   54   37   37      'SHUT'  2*    	 0.154    3*	     'Y'      6.066 /
+   'P-F-1C'   60   54   38   38      'SHUT'  2*    	 0.154    3*	     'Y'      6.343 /
+   'P-F-1C'   60   54   39   39      'SHUT'  2*    	 0.154    3*	     'Y'      6.226 /
+   'P-F-1C'   60   54   40   40      'SHUT'  2*    	 0.154    3*	     'Y'      6.118 /
+   'P-F-1C'   60   54   41   41      'SHUT'  2*    	 0.154    3*	     'Y'      6.119 /
+   'P-F-1C'   60   54   42   42      'SHUT'  2*    	 0.154    3*	     'Y'      6.119 /
+   'P-F-1C'   60   54   43   43      'SHUT'  2*    	 0.154    3*	     'Y'      6.120 /
+   'P-F-1C'   60   54   44   44      'SHUT'  2*    	 0.154    3*	     'Y'      6.122 /
+   'P-F-1C'   60   54   45   45      'SHUT'  2*    	 0.154    3*	     'Y'      6.123 /
+   'P-F-1C'   60   54   46   46      'SHUT'  2*    	 0.154    3*	     'Y'      5.307 /
+   'P-F-1C'   60   54   47   47      'SHUT'  2*    	 0.154    3*	     'Y'      5.307 /
+   'P-F-1C'   60   54   49   49      'SHUT'  2*    	 0.154    3*	     'Y'      5.757 /
+   'P-F-1C'   60   54   50   50      'SHUT'  2*    	 0.154    3*	     'Y'      5.757 /
+   'P-F-1C'   60   54   51   51      'SHUT'  2*    	 0.154    3*	     'Y'      5.759 /
+   'P-F-1C'   60   54   52   52      'SHUT'  2*    	 0.154    3*	     'Y'      5.474 /
+   'P-F-1C'   60   54   53   53      'SHUT'  2*    	 0.154    3*	     'Y'      5.307 /
+-- F11A section
+   'P-F-1C'   61   54    7    7      'SHUT'  2*    	 0.154    3*	     'Y'      4.245 /
+   'P-F-1C'   61   54    9    9      'SHUT'  2*    	 0.154    3*	     'Y'      4.206 /
+   'P-F-1C'   61   54   10   10      'OPEN'  2*    	 0.154    3*	     'Y'      4.192 /
+   'P-F-1C'   61   55   10   10      'OPEN'  2*    	 0.154    3*	     'Y'      3.993 /
+   'P-F-1C'   61   55   11   11      'SHUT'  2*    	 0.154    3*	     'Y'      4.505 /
+   'P-F-1C'   61   55   12   12      'SHUT'  2*    	 0.154    3*	     'Y'      4.503 /
+   'P-F-1C'   61   55   13   13      'SHUT'  2*    	 0.154    3*	     'Y'      4.505 /
+   'P-F-1C'   62   55   14   14      'SHUT'  2*    	 0.154    3*	     'Y'      4.463 /
+   'P-F-1C'   62   56   14   14      'SHUT'  2*    	 0.154    3*	     'Y'      4.415 /
+   'P-F-1C'   62   56   16   16      'SHUT'  2*    	 0.154    3*	     'Y'      3.255 /
+   'P-F-1C'   62   56   18   18      'SHUT'  2*    	 0.154    3*	     'Y'      4.759 /
+   'P-F-1C'   62   56   19   19      'SHUT'  2*    	 0.154    3*	     'Y'      4.754 /
+   'P-F-1C'   62   56   22   22      'SHUT'  2*    	 0.154    3*	     'Y'      4.749 /
+   'P-F-1C'   62   56   24   24      'SHUT'  2*    	 0.154    3*	     'Y'      4.760 /
+   'P-F-1C'   62   56   26   26      'SHUT'  2*    	 0.154    3*	     'Y'      4.804 /
+   'P-F-1C'   62   56   27   27      'SHUT'  2*    	 0.154    3*	     'Y'      4.903 /
+   'P-F-1C'   62   56   28   28      'OPEN'  2*    	 0.154    3*	     'Y'      4.905 /
+   'P-F-1C'   62   56   30   30      'OPEN'  2*    	 0.154    3*	     'Y'      4.842 /
+   'P-F-1C'   62   56   32   32      'OPEN'  2*    	 0.154    3*	     'Y'      4.842 /
+   'P-F-1C'   62   56   34   34      'SHUT'  2*    	 0.154    3*	     'Y'      4.472 /
+   'P-F-1C'   63   57   36   36      'SHUT'  2*    	 0.154    3*	     'Y'      4.487 /
+   'P-F-1C'   63   57   37   37      'SHUT'  2*    	 0.154    3*	     'Y'      4.490 /
+   'P-F-1C'   63   57   38   38      'SHUT'  2*    	 0.154    3*	     'Y'      4.571 /
+   'P-F-1C'   63   57   39   39      'SHUT'  2*    	 0.154    3*	     'Y'      4.611 /
+   'P-F-1C'   63   57   40   40      'SHUT'  2*    	 0.154    3*	     'Y'      4.615 /
+   'P-F-1C'   63   58   41   41      'SHUT'  2*    	 0.154    3*	     'Y'      4.682 /
+   'P-F-1C'   63   58   42   42      'SHUT'  2*    	 0.154    3*	     'Y'      4.680 /
+   'P-F-1C'   64   58   43   43      'SHUT'  2*    	 0.154    3*	     'X'      4.481 /
+   'P-F-1C'   64   58   44   44      'SHUT'  2*    	 0.154    3*	     'X'      4.518 /
+   'P-F-1C'   64   58   45   45      'SHUT'  2*    	 0.154    3*	     'X'      4.585 /
+   'P-F-1C'   64   58   46   46      'SHUT'  2*    	 0.154    3*	     'X'      4.579 /
+   'P-F-1C'   64   58   47   47      'OPEN'  2*    	 0.154    3*	     'X'      4.571 /
+   'P-F-1C'   64   58   48   48      'OPEN'  2*    	 0.154    3*	     'X'      4.877 /
+   'P-F-1C'   64   58   49   49      'OPEN'  2*    	 0.154    3*	     'X'      4.871 /
+   'P-F-1C'   64   58   50   50      'SHUT'  2*    	 0.154    3*	     'X'      4.957 /
+   'P-F-1C'   64   58   51   51      'SHUT'  2*    	 0.154    3*	     'X'      4.952 /
+   'P-F-1C'   64   58   52   52      'OPEN'  2*    	 0.154    3*	     'X'      4.945 /
+   'P-F-1C'   64   58   53   53      'OPEN'  2*    	 0.154    3*	     'X'      4.939 /
+   'P-F-1C'   64   58   54   54      'OPEN'  2*    	 0.154    3*	     'X'      4.933 /
+   'P-F-1C'   64   58   55   55      'SHUT'  2*    	 0.154    3*	     'X'      4.927 /
+   'P-F-1C'   64   58   56   56      'SHUT'  2*    	 0.154    3*	     'X'      4.293 /
+   'P-F-1C'   64   58   57   57      'SHUT'  2*    	 0.154    3*	     'X'      4.278 /
+   'P-F-1C'   64   58   58   58      'OPEN'  2*    	 0.154    3*	     'X'      4.466 /
+   'P-F-1C'   64   58   59   59      'OPEN'  2*    	 0.154    3*	     'X'      4.734 /
+   'P-F-1C'   65   58   58   58      'OPEN'  2*    	 0.154    3*	     'X'      4.958 /
+   'P-F-1C'   65   58   59   59      'SHUT'  2*    	 0.154    3*	     'X'      4.964 /
+   'P-F-1C'   65   58   60   60      'SHUT'  2*    	 0.154    3*	     'X'      4.973 /
+   'P-F-1C'   65   59   59   59      'OPEN'  2*    	 0.154    3*	     'X'      4.592 /
+   'P-F-1C'   65   59   60   60      'OPEN'  2*    	 0.154    3*	     'X'      4.988 /
+   'P-F-1C'   65   59   61   61      'OPEN'  2*    	 0.154    3*	     'X'      5.099 /
+   'P-F-1C'   65   59   62   62      'OPEN'  2*    	 0.154    3*	     'X'      5.134 /
+-- F1B section   
+   'P-F-1C'   66   59   55   55      'SHUT'  2*    	 0.154    3*	     'X'      4.507 /
+   'P-F-1C'   66   59   56   56      'SHUT'  2*    	 0.154    3*	     'X'      4.454 /
+   'P-F-1C'   66   59   57   57      'OPEN'  2*    	 0.154    3*	     'X'      4.501 /
+   'P-F-1C'   66   59   58   58      'OPEN'  2*    	 0.154    3*	     'X'      4.436 /
+   'P-F-1C'   66   59   59   59      'OPEN'  2*    	 0.154    3*	     'X'      4.413 /
+   'P-F-1C'   66   59   60   60      'OPEN'  2*    	 0.154    3*	     'X'      4.475 /
+   'P-F-1C'   67   59   61   61      'OPEN'  2*    	 0.154    3*	     'X'      5.845 /
+   'P-F-1C'   67   59   62   62      'OPEN'  2*    	 0.154    3*	     'X'      5.834 /
+   'P-F-1C'   67   59   63   63      'SHUT'  2*    	 0.154    3*	     'X'      5.858 /
+/
+
+
+
+COMPORD
+'P-*' INPUT /
+/
+
+WPIMULT
+'P-F-1C'  0.05 /
+/
+
+WCONHIST 
+   'P-F-1C'      'OPEN'      'ORAT'    630.800      0.000 123592.800  3*    289.000  1* /
+/
+
+DATES
+ 23 'APR' 2014 /
+/
+
+WCONHIST 
+   'P-F-1C'      'OPEN'      'ORAT'    1166.800      0.000 123592.800  3*    270.000  1* /
+/
+
+DATES
+ 24 'APR' 2014 /
+/
+
+WCONHIST 
+   'P-F-1C'      'OPEN'      'ORAT'    1550.800      0.000 123592.800  3*    263.000  1* /
+/
+
+DATES
+ 25 'APR' 2014 /
+/
+
+WCONHIST 
+   'P-F-1C'      'OPEN'      'ORAT'    1320.800      0.000 123592.800  3*    256.000  1* /
+/
+
+
+DATES
+ 27 'APR' 2014 /
+/
+
+WCONHIST 
+   'P-F-1C'      'OPEN'      'ORAT'    1260.800      0.000 123592.800  3*    240.000  1* /
+/
+
+-- 2310.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 29 'APR' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    485.400   3470.300  80916.800  3*    257.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1417.400    213.100 199252.700  3*    236.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    216.800      0.000  30494.500  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    236.700   5029.000  39461.700  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    934.600      0.000 121705.000  3*    233.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5425.400  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   7653.900  5* /
+/
+
+-- 2320.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 9 'MAY' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    350.900   2598.100  55900.900  3*    302.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1121.800    199.200 147094.100  3*    257.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    168.300      0.000  22047.000  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'     83.000   1826.300  13904.200  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    732.400      3.300  89750.400  3*    228.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   2370.500  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   1431.603  5* /
+/
+
+
+
+-- 2330.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 19 'MAY' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    400.500   3280.600  67322.800  3*    256.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1213.800    229.000 172127.200  3*    225.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    181.500      0.000  25730.200  3*    195.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'     62.100   1506.000  10555.400  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    674.300     79.400  88570.200  3*    220.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   6705.500  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5967.800  5* /
+/
+
+-- 2340.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 29 'MAY' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    415.000   3559.700  70299.300  3*    259.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1261.100    260.700 180274.400  3*    226.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    192.200      0.000  27473.600  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    213.800   5137.500  36214.100  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    590.000     81.700  78128.000  3*    220.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   6597.900  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6866.000  5* /
+/
+
+-- 2350.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 8 'JUN' 2014 /
+/
+
+
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    410.300   3543.100  69637.900  3*    260.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1292.800    280.800 185126.000  3*    225.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    195.200      0.000  27945.100  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    215.200   5100.000  36513.500  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    684.400     55.900  90782.600  3*    221.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5713.340  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   7038.810  5* /
+/
+
+-- 2360.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 18 'JUN' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    372.600   3305.700  63587.300  3*    260.200  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1209.100    281.000 174108.700  3*    220.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    181.500      0.000  26141.000  3*    200.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    197.100   4697.500  33618.200  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    570.700     84.000  76063.700  3*    216.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5149.860  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6349.930  5* /
+/
+
+-- 2370.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 28 'JUN' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    379.500   3425.700  65344.600  3*    260.700  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1234.100    303.700 179341.700  3*    219.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    189.900      0.000  27610.500  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    206.600   4904.600  35575.200  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    506.700    147.200  68212.400  3*    215.100  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5716.730  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   7070.180  5* /
+/
+
+-- 2380.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 8 'JUL' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    375.800   3297.100  64238.000  3*    260.900  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1248.600    309.200 180026.600  3*    220.200  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    193.400      0.000  27875.900  3*    200.100  1* /
+   'P-F-12'      'OPEN'      'ORAT'    208.800   4707.700  35665.600  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    434.200    231.200  57960.100  3*    215.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4726.750  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6392.000  5* /
+/
+
+-- 2390.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 18 'JUL' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    360.800   3205.200  62048.100  3*    260.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1195.800    309.600 173486.400  3*    218.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    183.000      0.000  26508.100  3*    197.100  1* /
+   'P-F-12'      'OPEN'      'ORAT'    204.600   4565.900  35176.400  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    394.500    233.200  52975.900  3*    214.900  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4459.400  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   8011.450  5* /
+/
+
+-- 2400.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 28 'JUL' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    363.200   3498.600  62064.700  3*    260.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1201.100    345.700 173093.000  3*    218.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    197.600      0.000  28479.300  3*    200.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    210.100   4968.900  35921.600  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    414.600    238.300  55326.400  3*    215.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4784.820  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   7721.910  5* /
+/
+
+-- 2410.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 7 'AUG' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    336.400   3491.300  51330.200  3*    261.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1203.900    289.800 183689.400  3*    220.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    190.100      0.000  29005.400  3*    200.100  1* /
+   'P-F-12'      'OPEN'      'ORAT'    174.100   5234.900  26553.700  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    384.970    264.340  58390.370  3*    210.100  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4900.980  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   7821.270  5* /
+/
+
+-- 2420.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 17 'AUG' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    117.200   1223.900  18710.700  3*    261.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    386.300     97.200  61450.700  3*    220.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     40.300      0.000   6240.400  3*    199.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'     65.500   2010.000  10582.100  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     58.950     49.410   8832.650  3*    216.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   2014.390  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   2929.740  5* /
+/
+
+-- 2430.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 27 'AUG' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    352.500   3113.100  61062.500  3*    260.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    738.000    155.500 125052.000  3*    260.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     68.100      0.000  11053.000  3*    274.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    189.100   4830.800  32684.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     82.170     95.520  13278.860  3*    271.100  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5346.080  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6312.850  5* /
+/
+
+-- 2440.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 6 'SEP' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    333.800   3404.800  52093.800  3*    261.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1224.300    289.900 191218.700  3*    219.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    196.500      0.000  30710.300  3*    200.700  1* /
+   'P-F-12'      'OPEN'      'ORAT'    172.000   5082.300  26833.600  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    393.460    325.900  61534.650  3*    225.300  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5821.310  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6827.900  5* /
+/
+
+-- 2450.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 16 'SEP' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    335.500   3508.500  50504.900  3*    261.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1194.200    320.700 179728.200  3*    219.600  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    195.500      0.000  29412.900  3*    201.500  1* /
+   'P-F-12'      'OPEN'      'ORAT'    174.200   5276.200  26209.400  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    345.680    315.080  52028.000  3*    224.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5327.300  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   7478.380  5* /
+/
+
+-- 2460.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 26 'SEP' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    279.600   3025.800  45036.500  3*    261.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    993.400    282.600 161328.100  3*    220.200  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    165.700      3.150  26961.200  3*    199.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    150.100   4706.400  24743.900  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    209.570    266.980  32298.030  3*    220.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4666.330  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6367.240  5* /
+/
+
+-- 2470.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 6 'OCT' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    324.600   3415.500  49967.500  3*    262.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1101.200    330.700 169538.900  3*    219.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    189.000      6.080  29102.800  3*    200.400  1* /
+   'P-F-12'      'OPEN'      'ORAT'    173.400   5062.800  26686.200  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    322.520    335.770  49671.040  3*    220.900  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5384.370  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6937.940  5* /
+/
+
+-- 2480.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 16 'OCT' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    323.700   3332.900  50037.800  3*    261.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1073.300    333.900 165913.200  3*    219.600  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    179.400      5.670  27730.900  3*    200.300  1* /
+   'P-F-12'      'OPEN'      'ORAT'    175.700   4933.500  27163.300  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    319.050    331.490  49330.630  3*    220.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5491.060  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   7032.020  5* /
+/
+
+-- 2490.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 26 'OCT' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    329.900   3308.200  50962.500  3*    262.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1057.300    338.500 163313.600  3*    220.600  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    187.400      5.760  28950.300  3*    206.700  1* /
+   'P-F-12'      'OPEN'      'ORAT'    179.600   4826.400  27752.700  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    313.530    326.120  48435.030  3*    221.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5259.840  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6959.670  5* /
+/
+
+-- 2500.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 5 'NOV' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    347.100   3667.900  54503.400  3*    261.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1020.100    374.400 160131.300  3*    219.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    191.700      6.620  30098.200  3*    199.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    185.800   4914.800  29171.300  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    291.030    316.460  45687.300  3*    221.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5261.110  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   7404.890  5* /
+/
+
+-- 2510.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 15 'NOV' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    356.200   3748.500  54898.900  3*    259.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    984.000    359.900 151677.200  3*    219.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    188.100      9.850  28975.800  3*    200.300  1* /
+   'P-F-12'      'OPEN'      'ORAT'    169.600   4460.800  26173.100  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    257.520    278.210  39746.550  3*    220.100  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5101.900  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5276.070  5* /
+/
+
+-- 2520.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 25 'NOV' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    302.100   2817.500  53413.300  3*    261.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    332.400    106.300  56066.600  3*    223.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     15.100      0.450   2223.000  3*    200.700  1* /
+   'P-F-12'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    244.400  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   2088.540  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   3421.800  5* /
+/
+
+DATES
+ 28 'NOV' 2014 /
+/
+
+-- Perf 58, 37, 3 og stengt TZ
+COMPDAT
+   'P-F-12'   58   37    3    3      'SHUT'  2*     0.216   3*         'Z'	6.866 /
+   'P-F-12'   58   37    6    6      'OPEN'  2*     0.216   3*         'X'	6.815 /
+   'P-F-12'   58   37    7    7      'SHUT'  2*     0.216   3*         'X'	6.896 /
+   'P-F-12'   58   37    8    8      'SHUT'  2*     0.216   3*         'X'	6.870 /
+   'P-F-12'   58   37   10   10      'SHUT'  2*     0.216   3*         'X'	6.610 /
+   'P-F-12'   58   37   11   11      'SHUT'  2*     0.216   3*         'X'	6.729 /
+   'P-F-12'   58   37   12   12      'SHUT'  2*     0.216   3*         'X'	6.763 /
+   'P-F-12'   58   37   13   13      'SHUT'  2*     0.216   3*         'X'	6.617 /
+   'P-F-12'   59   37   13   13      'SHUT'  2*     0.216   3*         'X'	6.346 / Open extra
+   'P-F-12'   59   37   14   14      'SHUT'  2*     0.216   3*         'X'	6.352 / Open extra
+   'P-F-12'   59   37   16   16      'SHUT'  2*     0.216   3*         'X'	6.322 / SHUT extra
+   'P-F-12'   59   37   17   17      'SHUT'  2*     0.216   3*         'X'	6.578 / SHUT extra
+   'P-F-12'   59   37   18   18      'SHUT'  2*     0.216   3*         'X'	6.707 / SHUT extra
+   'P-F-12'   59   37   19   19      'SHUT'  2*     0.216   3*         'X'	6.708 / SHUT extra
+   'P-F-12'   59   37   20   20      'SHUT'  2*     0.216   3*         'X'	6.728 / SHUT extra
+   'P-F-12'   59   37   21   21      'SHUT'  2*     0.216   3*         'X'	6.698 /
+   'P-F-12'   59   37   22   22      'SHUT'  2*     0.216   3*         'X'	6.674 /
+   'P-F-12'   59   37   23   23      'SHUT'  2*     0.216   3*         'X'	6.704 /
+   'P-F-12'   59   37   24   24      'SHUT'  2*     0.216   3*         'X'	6.685 /
+   'P-F-12'   59   37   25   25      'SHUT'  2*     0.216   3*         'X'	6.741 /
+   'P-F-12'   59   37   26   26      'SHUT'  2*     0.216   3*         'X'	6.456 /
+   'P-F-12'   59   37   27   27      'SHUT'  2*     0.216   3*         'X'	6.434 /
+   'P-F-12'   59   37   28   28      'SHUT'  2*     0.216   3*         'X'	6.485 /
+   'P-F-12'   59   37   29   29      'SHUT'  2*     0.216   3*         'X'	6.428 /
+   'P-F-12'   59   37   30   30      'SHUT'  2*     0.216   3*         'X'	6.508 /
+   'P-F-12'   59   37   31   31      'SHUT'  2*     0.216   3*         'X'	6.499 /
+--
+--lower TZ (1660 mD), perf: 37-38-42-43   
+   'P-F-1C'   63   57   36   36      'SHUT'  2*    	 0.154    3*	     'Y'      4.487 /
+   'P-F-1C'   63   57   37   37      'OPEN'  2*    	 0.154    3*	     'Y'      4.490 /
+   'P-F-1C'   63   57   38   38      'SHUT'  2*    	 0.154    3*	     'Y'      4.571 /
+   'P-F-1C'   63   57   39   39      'SHUT'  2*    	 0.154    3*	     'Y'      4.611 /
+   'P-F-1C'   63   57   40   40      'SHUT'  2*    	 0.154    3*	     'Y'      4.615 /
+   'P-F-1C'   63   58   41   41      'SHUT'  2*    	 0.154    3*	     'Y'      4.682 /
+   'P-F-1C'   63   58   42   42      'OPEN'  2*    	 0.154    3*	     'Y'      4.680 /
+   'P-F-1C'   64   58   43   43      'SHUT'  2*    	 0.154    3*	     'X'      4.481 /
+   'P-F-1C'   64   58   44   44      'SHUT'  2*    	 0.154    3*	     'X'      4.518 /
+   'P-F-1C'   64   58   45   45      'SHUT'  2*    	 0.154    3*	     'X'      4.585 /  
+/
+
+WPIMULT
+-- 
+'P-F-1C'  10.0 /
+/
+
+-- 2530.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 5 'DEC' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    326.500   3153.100  54165.900  3*    265.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    253.000     84.200  41895.900  3*    282.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    276.100  1* /
+   'P-F-12'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    257.400  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'    881.100  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4440.010  5* /
+/
+
+-- 2540.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 15 'DEC' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    310.400   3264.100  62528.000  3*    262.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    300.400    110.100  59330.300  3*    284.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    291.800  1* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    291.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5748.960  5* /
+    'I-F-4'     'WATER'  1*      'RATE'      0.000  5* /
+/
+
+-- 2550.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 25 'DEC' 2014 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    346.000   3385.400  79541.200  3*    262.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    422.300    155.100  89581.900  3*    286.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    297.800  1* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    296.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4260.630  5* /
+    'I-F-4'     'WATER'  1*      'RATE'    649.900  5* /
+/
+
+-- Working up to here
+
+--  -- put data manullay
+--  DATES
+--   1 'JAN' 2015 /
+--  /
+--  WCONHIST 
+--     'P-F-14'      'OPEN'      'ORAT'    298.200   3138.700  43367.000  3*    262.000  1* /
+--    'P-F-11B'      'OPEN'      'ORAT'   1057.900    482.200 139246.300  3*    267.300  1* /
+--    'P-F-15D'      'OPEN'      'ORAT'    236.300      7.020  31475.200  3*    248.800  1* /
+--     'P-F-12'      'OPEN'      'ORAT'    933.200    206.100 121140.400  5* /
+--     'P-F-1C'      'OPEN'      'ORAT'    803.670    399.850  87845.400  3*    281.300  1* /
+
+
+-- 2560.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 4 'JAN' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    298.200   3138.700  43367.000  3*    262.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    957.900    432.200 139246.300  3*    247.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    216.300      7.020  31475.200  3*    238.800  1* /
+   'P-F-12'      'OPEN'      'ORAT'    833.200    246.100 121140.400  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    603.670    399.850  87845.400  3*    271.300  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   3797.080  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   2807.590  5* /
+/
+
+-- 2570.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 14 'JAN' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    290.700   3114.700  42516.800  3*    264.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1006.300    464.200 147063.000  3*    219.500  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    208.400      6.860  30476.700  3*    201.800  1* /
+   'P-F-12'      'OPEN'      'ORAT'    845.200    442.200 123618.900  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    303.710    214.220  44214.500  3*    230.100  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4173.020  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   2474.460  5* /
+/
+
+-- 2580.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 24 'JAN' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    252.900   2795.200  37356.200  3*    263.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    964.400    507.000 142299.600  3*    209.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    159.700      7.200  23570.200  3*    199.800  1* /
+   'P-F-12'      'OPEN'      'ORAT'    905.200    497.000 133531.800  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    243.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   3024.300  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   2714.530  5* /
+/
+
+-- 2590.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 3 'FEB' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    238.300   2992.800  37372.400  3*    263.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    731.800    434.700 113531.500  3*    210.100  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    150.500      8.860  23592.900  3*    200.300  1* /
+   'P-F-12'      'OPEN'      'ORAT'    652.100    463.000 100576.500  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    146.780    224.250  22594.840  3*    276.400  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4103.070  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4288.990  5* /
+/
+
+-- 2600.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 13 'FEB' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    271.100   3531.800  40842.800  3*    261.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    995.200    548.400 150042.700  3*    208.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    178.500      9.610  26904.800  3*    197.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    706.000    591.200 106454.800  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    500.370    564.930  75315.290  3*    248.500  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5130.260  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5262.810  5* /
+/
+
+-- 2610.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 23 'FEB' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    273.100   3509.600  40923.800  3*    264.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1044.900    544.400 156610.000  3*    210.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    166.700     10.580  24947.000  3*    199.700  1* /
+   'P-F-12'      'OPEN'      'ORAT'    706.900    634.300 105941.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    311.520    285.320  46035.200  3*    221.100  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   3945.810  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4412.380  5* /
+/
+
+-- 2620.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 5 'MAR' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    261.400   3487.900  39191.200  3*    265.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1204.400    651.700 180544.400  3*    209.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    151.100     11.420  22638.700  3*    200.100  1* /
+   'P-F-12'      'OPEN'      'ORAT'    703.900    706.800 105518.700  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    239.300  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   3898.630  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4553.390  5* /
+/
+
+-- 2630.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 15 'MAR' 2015 /
+/
+
+COMPDAT
+--Toe  OPEN 84,37,2
+  'P-F-11B'   80   36   14   14      'SHUT'  2*        0.216   3*	  'X'	   5.358 /
+  'P-F-11B'   81   36   12   12      'SHUT'  2*        0.216   3*	  'X'	   5.291 /
+  'P-F-11B'   81   36   11   11      'SHUT'  2*        0.216   3*	  'X'	   5.291 /
+  'P-F-11B'   81   36   10   10      'OPEN'  2*        0.216   3*	  'X'	   4.207 /
+  'P-F-11B'   81   36    9    9      'SHUT'  2*        0.216   3*	  'X'	   4.150 /
+  'P-F-11B'   82   36    9    9      'SHUT'  2*        0.216   3*	  'X'	   4.139 /
+  'P-F-11B'   82   36    8    8      'OPEN'  2*        0.216   3*	  'X'	   4.161 /
+  'P-F-11B'   82   37    8    8      'OPEN'  2*        0.216   3*	  'X'	   4.310 /
+  'P-F-11B'   82   37    7    7      'SHUT'  2*        0.216   3*	  'X'	   5.265 /
+  'P-F-11B'   83   37    6    6      'OPEN'  2*        0.216   3*	  'X'	   5.224 /
+  'P-F-11B'   83   37    5    5      'SHUT'  2*        0.216   3*	  'X'	   5.621 /
+  'P-F-11B'   83   37    4    4      'SHUT'  2*        0.216   3*	  'X'	   5.621 /
+  'P-F-11B'   83   37    2    2      'SHUT'  2*        0.216   3*	  'X'	   5.618 /
+--  
+  'P-F-11B'   84   37    2    2      'OPEN'  2*        0.216   3*	  'X'	   5.806 /
+  'P-F-11B'   84   37    1    1      'SHUT'  2*        0.216   3*	  'X'	   5.790 /
+  'P-F-11B'   85   37    1    1      'SHUT'  2*        0.216   3*	  'X'	   5.355 /
+  'P-F-11B'   86   37    1    1      'SHUT'  2*        0.216   3*	  'X'	   5.360 /
+  'P-F-11B'   86   37    2    2      'SHUT'  2*        0.216   3*	  'X'	   5.355 /
+--  
+  'P-F-11B'   86   37    3    3      'SHUT'  2*        0.216   3*	  'X'	   5.318 /
+  'P-F-11B'   86   37    4    4      'SHUT'  2*        0.216   3*	  'X'	   5.041 /
+  'P-F-11B'   86   37    5    5      'SHUT'  2*        0.216   3*	  'X'	   5.037 /
+  'P-F-11B'   86   37    6    6      'SHUT'  2*        0.216   3*	  'X'	   5.411 /
+  'P-F-11B'   86   37    7    7      'SHUT'  2*        0.216   3*	  'X'	   4.615 /
+  'P-F-11B'   86   38    7    7      'OPEN'  2*        0.216   3*	  'X'	   5.725 /
+  'P-F-11B'   86   38    8    8      'OPEN'  2*        0.216   3*	  'X'	   4.989 /
+  'P-F-11B'   86   38    9    9      'OPEN'  2*        0.216   3*	  'X'	   4.985 /
+  'P-F-11B'   86   38   10   10      'SHUT'  2*        0.216   3*	  'X'	   4.981 /
+  'P-F-11B'   86   38   11   11      'OPEN'  2*        0.216   3*	  'X'	   5.379 /
+  'P-F-11B'   86   38   12   12      'OPEN'  2*        0.216   3*	  'X'	   5.384 /  
+--
+/
+
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    253.500   3435.200  37555.100  3*    265.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1561.900    602.800 229432.400  3*    210.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    109.600      8.270  16015.500  3*    200.200  1* /
+   'P-F-12'      'OPEN'      'ORAT'    513.900    515.700  75161.800  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    184.040    590.520  27691.501  3*    282.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4346.470  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4268.850  5* /
+/
+
+-- 2640.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 25 'MAR' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    258.700   3449.900  37281.200  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1790.800    671.400 257318.200  3*    285.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    131.000      9.880  18774.000  3*    229.400  1* /
+   'P-F-12'      'OPEN'      'ORAT'    637.200    638.000  91418.100  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    409.630    577.440  58818.811  3*    232.300  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4376.710  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4260.250  5* /
+/
+
+-- 2650.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 4 'APR' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    250.700   3248.800  36593.800  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1768.300    756.500 258099.800  3*    219.700  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    139.000     10.210  20294.200  3*    200.500  1* /
+   'P-F-12'      'OPEN'      'ORAT'    681.900    665.100  99534.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    231.500  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4469.170  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4495.910  5* /
+/
+
+-- 2660.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 14 'APR' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    255.500   3473.400  37605.900  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1805.600    845.300 265707.800  3*    220.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    142.000     10.940  20897.000  3*    200.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    682.800    709.400 100521.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     84.360    372.660  12295.340  3*    277.400  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5785.220  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5612.380  5* /
+/
+
+-- 2670.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 24 'APR' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    265.800   3366.400  38206.800  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1903.000    815.500 273670.900  3*    221.600  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    147.500     10.590  21200.900  3*    199.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    581.100    739.100  83592.500  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    452.070    811.020  64918.180  3*    246.500  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4406.650  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4330.050  5* /
+/
+
+-- 2680.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 4 'MAY' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    251.000   3269.200  36626.000  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1816.800    800.500 265219.100  3*    220.100  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    135.800     10.040  19832.000  3*    199.500  1* /
+   'P-F-12'      'OPEN'      'ORAT'    548.500    806.900  80063.700  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    222.600  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4362.890  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4244.000  5* /
+/
+
+-- 2690.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 14 'MAY' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    216.500   3257.800  31554.300  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1767.900    762.500 257513.700  3*    219.700  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    126.900      9.160  18492.700  3*    199.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    550.200    792.400  80145.100  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     64.570     99.640   9706.460  3*    274.300  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4412.750  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4053.750  5* /
+/
+
+-- 2700.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 24 'MAY' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    210.600   3497.000  31055.300  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1687.800    804.400 249072.100  3*    219.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    123.900      9.880  18249.600  3*    201.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    545.100    867.600  80456.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    168.950    307.720  24814.850  3*    235.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4288.000  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4088.870  5* /
+/
+
+-- 2710.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 3 'JUN' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    203.200   3274.000  29768.400  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1633.100    755.800 239178.000  3*    220.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    124.000      9.620  18141.100  3*    200.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    605.000    954.000  88455.600  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     29.610    172.290   4317.510  3*    275.200  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4261.750  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4370.620  5* /
+/
+
+-- 2720.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 13 'JUN' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    198.900   3255.700  29134.200  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1571.200    737.300 230078.400  3*    220.200  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    120.000      9.440  17579.400  3*    199.400  1* /
+   'P-F-12'      'OPEN'      'ORAT'    678.300   1155.900  99321.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    228.580    635.780  33455.710  3*    253.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5402.940  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5522.400  5* /
+/
+
+-- 2730.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 23 'JUN' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    205.800   3488.500  30087.600  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1606.700    842.400 235045.500  3*    220.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    123.000     10.100  17967.200  3*    200.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    692.500   1245.700 101283.300  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    377.790    649.420  54990.240  3*    234.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4650.380  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6645.020  5* /
+/
+
+-- 2740.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 3 'JUL' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    226.500   3115.500  33315.200  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1489.600   1119.200 219155.200  3*    220.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    129.300      9.310  19007.500  3*    200.700  1* /
+   'P-F-12'      'OPEN'      'ORAT'    692.400   1177.300 101873.500  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    229.900  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   2802.890  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5717.750  5* /
+/
+
+-- 2750.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 13 'JUL' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    220.100   3054.000  32772.200  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1371.000   1173.400 204203.200  3*    220.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     69.500      7.160  10287.000  3*    201.200  1* /
+   'P-F-12'      'OPEN'      'ORAT'    583.500   1143.200  86917.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     11.070    120.120   1683.420  3*    277.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4201.520  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4761.580  5* /
+/
+
+-- 2760.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 23 'JUL' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    202.600   3137.200  30461.000  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1323.100   1270.800 198966.500  3*    220.600  1* /
+  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    258.500  1* /
+   'P-F-12'      'OPEN'      'ORAT'    554.500   1218.100  83347.700  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    229.540    828.590  34504.140  3*    257.900  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4657.940  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4340.340  5* /
+/
+
+-- 2770.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 2 'AUG' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    195.000   3119.200  29548.600  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1245.900   1227.500 188629.300  3*    220.100  1* /
+  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    273.300  1* /
+   'P-F-12'      'OPEN'      'ORAT'    517.500   1167.700  78367.500  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    252.090    450.760  37539.549  3*    229.000  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4374.010  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4302.630  5* /
+/
+
+-- 2780.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 12 'AUG' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    188.000   3077.200  28507.900  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1198.200   1209.500 181714.600  3*    220.700  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    186.400     98.910  28077.700  3*    283.700  1* /
+   'P-F-12'      'OPEN'      'ORAT'    499.700   1154.800  75790.500  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    251.300  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4407.420  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4523.940  5* /
+/
+
+DATES
+ 15 'AUG' 2015 /
+/
+
+COMPDAT 
+--
+   'P-F-15D'   69   53    1    1      'OPEN'    2*   0.216   3*         'X'      4.795 /
+   'P-F-15D'   69   53    3    3      'SHUT'    2*   0.216   3*         'X'      4.785 /
+   'P-F-15D'   69   53    4    4      'SHUT'    2*   0.216   3*         'X'      4.779 /
+   'P-F-15D'   69   53    5    5      'OPEN'    2*   0.216   3*         'X'      4.774 /
+   'P-F-15D'   69   53    6    6      'SHUT'    2*   0.216   3*         'X'      4.217 /
+   'P-F-15D'   69   53    7    7      'SHUT'    2*   0.216   3*         'X'      4.275 /
+   'P-F-15D'   69   53    8    8      'SHUT'    2*   0.216   3*         'X'      4.293 /
+   'P-F-15D'   69   53    9    9      'SHUT'    2*   0.216   3*         'X'      4.307 /
+   'P-F-15D'   69   53   10   10      'SHUT'    2*   0.216   3*         'X'      4.322 /
+   'P-F-15D'   69   53   11   11      'OPEN'    2*   0.216   3*         'X'      4.703 /
+   'P-F-15D'   70   53   11   11      'OPEN'    2*   0.216   3*         'X'      4.443 /
+   'P-F-15D'   70   53   10   10      'SHUT'    2*   0.216   3*         'X'      3.977 /
+   'P-F-15D'   70   53    9    9      'SHUT'    2*   0.216   3*         'X'      3.909 /
+   'P-F-15D'   71   53   12   12      'SHUT'    2*   0.216   3*         'X'      4.674 /
+   'P-F-15D'   71   53   13   13      'SHUT'    2*   0.216   3*         'X'      4.595 /
+   'P-F-15D'   72   53   14   14      'SHUT'    2*   0.216   3*         'X'      4.953 /
+   'P-F-15D'   72   53   16   16      'SHUT'    2*   0.216   3*         'X'      3.566 /
+   'P-F-15D'   72   53   17   17      'SHUT'    2*   0.216   3*         'X'      5.275 /
+   'P-F-15D'   72   53   18   18      'SHUT'    2*   0.216   3*         'X'      5.687 /
+   'P-F-15D'   72   53   19   19      'SHUT'    2*   0.216   3*         'X'      5.701 /
+   'P-F-15D'   72   53   20   20      'SHUT'    2*   0.216   3*         'X'      5.715 /
+   'P-F-15D'   72   53   21   21      'SHUT'    2*   0.216   3*         'X'      5.729 /
+   'P-F-15D'   72   53   22   22      'SHUT'    2*   0.216   3*         'X'      5.743 /
+   'P-F-15D'   73   53   22   22      'SHUT'    2*   0.216   3*         'X'      5.905 /
+   'P-F-15D'   73   53   21   21      'SHUT'    2*   0.216   3*         'X'      5.895 /
+   'P-F-15D'   73   53   20   20      'SHUT'    2*   0.216   3*         'X'      5.887 /
+   'P-F-15D'   73   53   19   19      'SHUT'    2*   0.216   3*         'X'      5.875 /
+   'P-F-15D'   73   53   18   18      'SHUT'    2*   0.216   3*         'X'      5.865 /
+   'P-F-15D'   73   53   17   17      'SHUT'    2*   0.216   3*         'X'      5.856 /
+   'P-F-15D'   73   53   16   16      'SHUT'    2*   0.216   3*         'X'      4.563 /
+   'P-F-15D'   73   53   15   15      'SHUT'    2*   0.216   3*         'X'      5.472 /
+   'P-F-15D'   73   53   13   13      'SHUT'    2*   0.216   3*         'X'      5.440 /
+   'P-F-15D'   73   53   11   11      'SHUT'    2*   0.216   3*         'X'      5.408 /
+   'P-F-15D'   73   53   10   10      'SHUT'    2*   0.216   3*         'X'      4.940 /
+   'P-F-15D'   73   53    9    9      'SHUT'    2*   0.216   3*         'X'      4.905 /
+   'P-F-15D'   73   53    8    8      'SHUT'    2*   0.216   3*         'X'      4.870 /
+   'P-F-15D'   73   53    7    7      'SHUT'    2*   0.216   3*         'X'      4.967 /
+   'P-F-15D'   73   53    6    6      'SHUT'    2*   0.216   3*         'X'      5.214 /
+   'P-F-15D'   73   53    5    5      'SHUT'    2*   0.216   3*         'X'      5.547 /
+   'P-F-15D'   73   53    4    4      'SHUT'    2*   0.216   3*         'X'      5.530 /
+   'P-F-15D'   73   53    3    3      'OPEN'    2*   0.216   3*         'X'      5.512 /
+   'P-F-15D'   73   52    3    3      'OPEN'    2*   0.216   3*         'X'      5.894 /
+   'P-F-15D'   73   52    2    2      'SHUT'    2*   0.216   3*         'X'      5.949 /
+   'P-F-15D'   73   52    1    1      'SHUT'    2*   0.216   3*         'X'      5.933 /
+   'P-F-15D'   74   52    1    1      'SHUT'    2*   0.216   3*         'X'      4.877 /
+   'P-F-15D'   75   52    2    2      'SHUT'    2*   0.216   3*         'X'      4.667 /
+   'P-F-15D'   75   52    3    3      'OPEN'    2*   0.216   3*         'X'      4.670 /
+   'P-F-15D'   75   52    4    4      'SHUT'    2*   0.216   3*         'X'      4.840 /
+   'P-F-15D'   75   52    5    5      'SHUT'    2*   0.216   3*         'X'      5.400 /
+   'P-F-15D'   75   52    6    6      'SHUT'    2*   0.216   3*         'X'      5.118 /
+   'P-F-15D'   75   52    7    7      'OPEN'    2*   0.216   3*         'X'      5.100 /
+   'P-F-15D'   75   52    8    8      'SHUT'    2*   0.216   3*         'X'      5.084 /
+   'P-F-15D'   75   52    9    9      'SHUT'    2*   0.216   3*         'X'      5.067 /
+   'P-F-15D'   75   52   10   10      'SHUT'    2*   0.216   3*         'X'      4.892 /
+   'P-F-15D'   76   52   11   11      'SHUT'    2*   0.216   3*         'X'      5.336 /
+   'P-F-15D'   76   52   10   10      'SHUT'    2*   0.216   3*         'X'      4.853 /
+   'P-F-15D'   76   51   10   10      'SHUT'    2*   0.216   3*         'X'      4.263 /
+   'P-F-15D'   76   51    9    9      'SHUT'    2*   0.216   3*         'X'      4.203 /
+   'P-F-15D'   76   51   11   11      'SHUT'    2*   0.216   3*         'X'      4.849 /
+   'P-F-15D'   77   51   11   11      'SHUT'    2*   0.216   3*         'X'      4.951 /
+   'P-F-15D'   77   51   12   12      'SHUT'    2*   0.216   3*         'X'      4.925 /
+   'P-F-15D'   78   51   12   12      'SHUT'    2*   0.216   3*         'X'      5.002 /
+   'P-F-15D'   78   50   12   12      'SHUT'    2*   0.216   3*         'X'      4.924 /
+   'P-F-15D'   78   50   11   11      'SHUT'    2*   0.216   3*         'X'      5.016 /
+   'P-F-15D'   78   50   10   10      'SHUT'    2*   0.216   3*         'X'      4.438 /
+   'P-F-15D'   78   50    8    8      'SHUT'    2*   0.216   3*         'X'      4.455 /
+   'P-F-15D'   78   50    7    7      'OPEN'    2*   0.216   3*         'X'      4.464 /
+   'P-F-15D'   78   50    6    6      'SHUT'    2*   0.216   3*         'X'      4.473 /
+   'P-F-15D'   79   50    6    6      'SHUT'    2*   0.216   3*         'X'      4.360 /
+   'P-F-15D'   79   50    7    7      'SHUT'    2*   0.216   3*         'X'      4.361 /
+   'P-F-15D'   80   50    7    7      'OPEN'    2*   0.216   3*         'X'      4.318 /
+   'P-F-15D'   80   50    6    6      'SHUT'    2*   0.216   3*         'X'      4.505 /
+   'P-F-15D'   80   50    5    5      'SHUT'    2*   0.216   3*         'X'      5.050 /
+   'P-F-15D'   80   49    5    5      'SHUT'    2*   0.216   3*         'X'      5.057 /
+   'P-F-15D'   80   49    4    4      'SHUT'    2*   0.216   3*         'X'      5.034 /
+   'P-F-15D'   80   49    3    3      'OPEN'    2*   0.216   3*         'X'      5.012 /
+   'P-F-15D'   80   49    2    2      'SHUT'    2*   0.216   3*         'X'      4.991 /
+   'P-F-15D'   81   49    2    2      'SHUT'    2*   0.216   3*         'X'      4.935 /
+   'P-F-15D'   81   49    3    3      'SHUT'    2*   0.216   3*         'X'      4.970 /
+   'P-F-15D'   82   49    3    3      'OPEN'    2*   0.216   3*         'X'      4.909 /
+   'P-F-15D'   82   49    2    2      'SHUT'    2*   0.216   3*         'X'      4.884 /
+   'P-F-15D'   82   48    2    2      'SHUT'    2*   0.216   3*         'X'      4.836 /
+   'P-F-15D'   83   48    2    2      'SHUT'    2*   0.216   3*         'X'      4.764 /
+   'P-F-15D'   83   48    3    3      'OPEN'    2*   0.216   3*         'X'      4.795 /
+   'P-F-15D'   83   48    4    4      'SHUT'    2*   0.216   3*         'X'      4.827 /
+   'P-F-15D'   83   48    5    5      'SHUT'    2*   0.216   3*         'X'      4.840 /
+/
+
+
+-- 2790.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 22 'AUG' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'     84.500   1450.400  12700.000  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    577.700    626.700  87468.800  3*    221.200  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    171.300     86.740  26151.100  3*    229.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    277.000    723.300  42613.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    284.700  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   2068.450  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   2224.880  5* /
+/
+
+-- 2800.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 1 'SEP' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    171.400   2873.200  26131.900  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1057.900   1274.400 161700.000  3*    229.800  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    278.000    148.260  42488.400  3*    231.200  1* /
+   'P-F-12'      'OPEN'      'ORAT'    421.500   1197.400  64429.600  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    238.230    674.330  35875.610  3*    297.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4478.220  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4682.370  5* /
+/
+
+-- 2810.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 11 'SEP' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    188.800   2874.600  28019.100  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1038.200   1238.400 153970.800  3*    219.800  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    243.400    132.610  36095.600  3*    219.200  1* /
+   'P-F-12'      'OPEN'      'ORAT'    413.900   1183.600  61374.800  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    419.200    793.930  62051.471  3*    243.300  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4215.280  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4475.200  5* /
+/
+
+-- 2820.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 21 'SEP' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    168.800   2715.100  25655.900  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1040.400   1234.800 158180.300  3*    219.700  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    218.700    118.760  33263.900  3*    219.500  1* /
+   'P-F-12'      'OPEN'      'ORAT'    411.600   1132.500  62585.100  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    227.600  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4132.580  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4217.950  5* /
+/
+
+-- 2830.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 1 'OCT' 2015 /
+/
+
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    187.500   3126.400  28484.400  3*    265.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1150.000   1389.900 174780.300  3*    220.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    209.700    114.940  31868.600  3*    219.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    399.600   1194.800  60738.700  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    276.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4538.970  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4580.050  5* /
+/
+
+-- 2840.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 11 'OCT' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    184.500   3115.200  27843.900  3*    263.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1149.400   1502.200 173627.700  3*    209.500  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    205.800    114.390  31088.500  3*    218.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    386.700   1224.800  58394.400  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    108.210    635.880  16265.960  3*    295.300  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4082.320  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4153.700  5* /
+/
+
+-- 2850.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 21 'OCT' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    173.100   3164.600  26775.700  3*    263.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    673.200    910.400 101748.900  3*    209.700  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    198.400    119.690  30724.600  3*    220.300  1* /
+   'P-F-12'      'OPEN'      'ORAT'    363.700   1247.600  56307.800  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    300.360    718.000  46871.310  3*    243.200  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4372.370  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4403.220  5* /
+/
+
+-- 2860.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 31 'OCT' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    175.100   3215.100  27676.900  3*    264.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    942.600   1289.400 144002.500  3*    296.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    188.600    118.930  29874.700  3*    218.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    371.300   1275.900  58710.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    229.100  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   3758.460  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5625.370  5* /
+/
+
+-- 2870.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 10 'NOV' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    184.700   3363.500  28179.600  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1314.000   2194.400 200615.900  3*    220.500  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    209.300    158.360  31891.100  3*    208.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    384.200   1311.100  58629.200  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     12.060    125.970   1865.000  3*    278.900  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5446.550  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5888.160  5* /
+/
+
+-- 2880.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 20 'NOV' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    184.600   3110.900  28194.600  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1263.600   2028.200 192908.900  3*    218.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     15.400     10.580   2368.000  3*    232.500  1* /
+   'P-F-12'      'OPEN'      'ORAT'    383.900   1211.800  58614.700  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    288.930    967.940  44084.730  3*    263.900  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4275.050  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4528.190  5* /
+/
+
+-- 2890.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 30 'NOV' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    167.500   2985.800  25781.100  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1176.700   2016.900 181302.200  3*    220.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     21.300     20.150   3315.400  3*    278.800  1* /
+   'P-F-12'      'OPEN'      'ORAT'    343.500   1143.500  52902.500  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    327.170    697.460  50394.530  3*    220.600  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5743.880  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5910.230  5* /
+/
+
+
+-- 2900.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 10 'DEC' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    170.800   3107.300  25922.900  3*    268.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1199.800   2082.100 181981.400  3*    228.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    236.000    255.350  35789.100  3*    232.100  1* /
+   'P-F-12'      'OPEN'      'ORAT'    372.700   1272.400  56490.800  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    220.500  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4235.820  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4369.440  5* /
+/
+
+-- 2910.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 20 'DEC' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    163.500   3065.400  25102.700  3*    265.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1120.800   2002.700 172085.600  3*    221.600  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    196.300    194.090  30154.400  3*    218.800  1* /
+   'P-F-12'      'OPEN'      'ORAT'    340.600   1195.900  52265.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    273.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4154.260  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4557.630  5* /
+/
+
+-- 2920.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 30 'DEC' 2015 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    144.700   2950.100  22876.600  3*    265.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1015.100   1975.700 160473.900  3*    222.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     91.200     92.280  14095.400  3*    210.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    307.300   1175.300  48561.800  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     56.830    504.790   9174.170  3*    294.800  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4988.500  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5289.620  5* /
+/
+
+-- 2930.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 9 'JAN' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    155.500   3392.200  24484.400  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'   1070.400   2226.300 168566.600  3*    224.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    271.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    325.200   1329.400  51194.800  5* /
+   'P-F-1C'      'OPEN'      'ORAT'    200.460    771.440  31548.220  3*    246.200  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5199.470  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5222.410  5* /
+/
+
+-- 2940.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 19 'JAN' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    146.800   3052.100  22597.600  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    993.300   2278.000 153060.900  3*    227.400  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    177.500    248.120  27252.200  3*    286.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    295.300   1251.100  45511.200  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     40.840    127.390   6445.200  3*    229.600  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4182.810  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4258.890  5* /
+/
+
+-- 2950.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 29 'JAN' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    145.400   2985.000  22704.700  3*    265.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    957.700   2304.700 149647.500  3*    227.700  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    188.900    204.370  29532.600  3*    214.800  1* /
+   'P-F-12'      'OPEN'      'ORAT'    282.800   1222.800  44178.000  5* /
+   'P-F-1C'      'OPEN'      'ORAT'     11.790    119.470   1847.360  3*    269.400  1* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4336.650  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4491.430  5* /
+/
+
+-- 2960.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 8 'FEB' 2016 /
+/
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    137.500   2891.500  21508.600  3*    266.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    904.100   2229.200 141539.600  3*    228.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    177.600    196.710  27798.900  3*    207.500  1* /
+   'P-F-1C'      'OPEN'      'ORAT'    216.570    906.840  33821.811  3*    265.100  1* /
+   'P-F-12'      'OPEN'      'ORAT'    265.800   1178.300  41629.300  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   5572.830  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   3680.550  5* /
+/
+
+-- 2970.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 18 'FEB' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    129.200   3004.500  20525.200  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    849.100   2316.400 135069.000  3*    232.900  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    167.200    204.680  26566.800  3*    205.600  1* /
+   'P-F-1C'      'OPEN'      'ORAT'    224.250    568.160  38550.910  3*    230.400  1* /
+   'P-F-12'      'OPEN'      'ORAT'    249.900   1224.300  39726.200  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   6610.970  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   6602.860  5* /
+/
+
+-- 2980.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 28 'FEB' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    136.600   3309.500  21722.300  3*    268.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    898.700   2551.500 142946.600  3*    235.100  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    176.900    225.730  28152.900  3*    203.800  1* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.060      0.120      8.860  3*    241.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    264.300   1348.400  42043.100  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4756.490  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5038.020  5* /
+/
+
+-- 2990.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 9 'MAR' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    121.000   3086.000  19414.200  3*    268.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    827.300   2478.600 132890.900  3*    237.500  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    151.800    204.380  24369.200  3*    202.000  1* /
+   'P-F-1C'      'OPEN'      'ORAT'      8.830    160.790   1428.990  3*    277.700  1* /
+   'P-F-12'      'OPEN'      'ORAT'    243.300   1310.000  39085.500  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4475.760  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4589.480  5* /
+/
+
+-- 3000.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 19 'MAR' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    113.600   3157.300  18545.100  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    747.100   2434.100 122038.000  3*    238.500  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     82.000    119.240  13327.400  3*    206.900  1* /
+   'P-F-1C'      'OPEN'      'ORAT'    197.250    925.490  32243.200  3*    275.300  1* /
+   'P-F-12'      'OPEN'      'ORAT'    219.900   1286.400  35893.700  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   4565.170  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   4521.540  5* /
+/
+
+-- 3010.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 29 'MAR' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+-- ERROR: P-F-1C has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    100.800   3026.200  16481.200  3*    268.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    673.400   2371.400 110173.800  3*    242.200  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     26.300     29.180   4240.000  3*    270.600  1* /
+   'P-F-1C'      'OPEN'      'ORAT'    252.820    698.920  41432.130  3*    231.500  1* /
+   'P-F-12'      'OPEN'      'ORAT'    198.400   1255.700  32457.600  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'   3401.910  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   5326.020  5* /
+/
+
+-- 3020.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 8 'APR' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    112.800   3217.700  19183.600  3*    267.000  1* /
+  'P-F-11B'      'OPEN'      'ORAT'    469.200   1830.700  77570.900  3*    243.500  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    180.700    257.930  30885.600  3*    232.100  1* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    235.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    211.200   1240.000  35969.500  5* /
+/
+
+WCONINJE 
+    'I-F-5'     'WATER'  1*      'RATE'      0.000  5* /
+    'I-F-4'     'WATER'  1*      'RATE'   8091.150  5* /
+/
+
+--   
+COMPDAT 
+-- WELL        I    J    K1  K2            Sat.        CF       DIAM        KH SKIN ND        DIR   Ro 
+    'I-F-5'   84   41    1    1      'SHUT'  2*     0.216   3*         'Y'	6.859 /
+    'I-F-5'   84   41    2    2      'SHUT'  2*     0.216   3*         'Y'	6.885 /
+    'I-F-5'   84   41    3    3      'SHUT'  2*     0.216   3*         'Y'	6.907 /
+    'I-F-5'   84   41    4    4      'SHUT'  2*     0.216   3*         'Y'	6.766 /
+    'I-F-5'   84   41    5    5      'SHUT'  2*     0.216   3*         'Y'	6.928 /
+    'I-F-5'   84   41    6    6      'SHUT'  2*     0.216   3*         'Y'	7.132 /
+    'I-F-5'   84   41    7    7      'SHUT'  2*     0.216   3*         'Y'	7.140 /
+    'I-F-5'   84   41    8    8      'SHUT'  2*     0.216   3*         'Y'	6.805 /
+    'I-F-5'   84   41    9    9      'SHUT'  2*     0.216   3*         'Y'	6.686 /
+    'I-F-5'   84   41   10   10      'SHUT'  2*     0.216   3*         'Y'	6.403 /
+    'I-F-5'   84   41   11   11      'SHUT'  2*     0.216   3*         'Y'	7.303 /
+    'I-F-5'   84   41   12   12      'SHUT'  2*     0.216   3*         'Y'	6.732 /
+    'I-F-5'   84   41   13   13      'SHUT'  2*     0.216   3*         'Y'	7.124 /
+    'I-F-5'   84   41   14   14      'SHUT'  2*     0.216   3*         'Y'	7.073 /
+    'I-F-5'   84   41   15   15      'SHUT'  2*     0.216   3*         'Y'	6.837 /
+    'I-F-5'   84   41   16   16      'SHUT'  2*     0.216   3*         'X'	7.828 /
+    'I-F-5'   85   41   16   16      'SHUT'  2*     0.216   3*         'Y'	6.002 /
+    'I-F-5'   85   41   17   17      'SHUT'  2*     0.216   3*         'Y'	7.497 /
+    'I-F-5'   85   41   19   19      'SHUT'  2*     0.216   3*         'Y'	7.505 /
+    'I-F-5'   85   41   20   20      'SHUT'  2*     0.216   3*         'Y'	7.493 /
+    'I-F-5'   85   42   20   20      'SHUT'  2*     0.216   3*         'Y'	7.235 /
+    'I-F-5'   85   42   21   21      'SHUT'  2*     0.216   3*         'Y'	7.402 /
+    'I-F-5'   85   42   22   22      'SHUT'  2*     0.216   3*         'Y'	7.256 /
+    'I-F-5'   85   42   23   23      'SHUT'  2*     0.216   3*         'Y'	7.225 /
+    'I-F-5'   85   42   24   24      'SHUT'  2*     0.216   3*         'Y'	7.387 /
+    'I-F-5'   85   42   25   25      'SHUT'  2*     0.216   3*         'Y'	7.213 /
+    'I-F-5'   85   42   26   26      'SHUT'  2*     0.216   3*         'Y'	6.932 /
+    'I-F-5'   85   42   27   27      'SHUT'  2*     0.216   3*         'Y'	6.827 /
+    'I-F-5'   85   42   28   28      'SHUT'  2*     0.216   3*         'Y'	6.820 /
+    'I-F-5'   85   42   29   29      'SHUT'  2*     0.216   3*         'Y'	6.807 /
+    'I-F-5'   85   42   30   30      'SHUT'  2*     0.216   3*         'Y'	6.800 /
+    'I-F-5'   85   42   31   31      'SHUT'  2*     0.216   3*         'Y'	6.843 /
+    'I-F-5'   85   42   32   32      'SHUT'  2*     0.216   3*         'Y'	6.834 /
+    'I-F-5'   85   42   33   33      'SHUT'  2*     0.216   3*         'Y'	6.764 /
+    'I-F-5'   85   42   34   34      'SHUT'  2*     0.216   3*         'Y'	7.124 /
+    'I-F-5'   85   42   35   35      'SHUT'  2*     0.216   3*         'Y'	6.819 /
+    'I-F-5'   85   43   36   36      'SHUT'  2*     0.216   3*         'Y'	6.894 /
+    'I-F-5'   85   43   37   37      'SHUT'  2*     0.216   3*         'Y'	7.049 /
+    'I-F-5'   85   43   38   38      'SHUT'  2*     0.216   3*         'Y'	6.695 /
+    'I-F-5'   85   43   39   39      'SHUT'  2*     0.216   3*         'Y'	7.342 /
+    'I-F-5'   85   43   40   40      'SHUT'  2*     0.216   3*         'Y'	7.217 /
+    'I-F-5'   85   43   41   41      'SHUT'  2*     0.216   3*         'Y'	7.323 /
+    'I-F-5'   85   43   42   42      'SHUT'  2*     0.216   3*         'Y'	7.215 /
+    'I-F-5'   85   43   43   43      'SHUT'  2*     0.216   3*         'Y'	7.212 /
+    'I-F-5'   85   43   44   44      'SHUT'  2*     0.216   3*         'Y'	7.209 /
+    'I-F-5'   85   43   45   45      'SHUT'  2*     0.216   3*         'Y'	7.198 /
+    'I-F-5'   85   43   46   46      'SHUT'  2*     0.216   3*         'Y'	6.501 /
+    'I-F-5'   85   43   47   47      'SHUT'  2*     0.216   3*         'Y'	6.581 /
+    'I-F-5'   85   43   48   48      'SHUT'  2*     0.216   3*         'Y'	6.538 /
+    'I-F-5'   85   43   49   49      'SHUT'  2*     0.216   3*         'Y'	6.304 /
+    'I-F-5'   85   43   50   50      'SHUT'  2*     0.216   3*         'Y'	6.299 /
+    'I-F-5'   85   43   51   51      'SHUT'  2*     0.216   3*         'Y'	7.077 /
+    'I-F-5'   85   43   52   52      'SHUT'  2*     0.216   3*         'Y'	6.851 /
+    'I-F-5'   85   44   52   52      'SHUT'  2*     0.216   3*         'Y'	6.460 /
+    'I-F-5'   85   44   53   53      'SHUT'  2*     0.216   3*         'Y'	6.815 /
+    'I-F-5'   85   44   54   54      'SHUT'  2*     0.216   3*         'Y'	6.647 /
+    'I-F-5'   85   44   55   55      'SHUT'  2*     0.216   3*         'Y'	7.018 /
+    'I-F-5'   85   44   56   56      'SHUT'  2*     0.216   3*         'Y'	6.994 /
+    'I-F-5'   85   44   57   57      'SHUT'  2*     0.216   3*         'Y'	7.111 /
+    'I-F-5'   85   44   58   58      'SHUT'  2*     0.216   3*         'Y'	6.628 /
+    'I-F-5'   85   44   59   59      'SHUT'  2*     0.216   3*         'Y'	6.705 /
+    'I-F-5'   85   44   60   60      'SHUT'  2*     0.216   3*         'Y'	6.628 /
+    'I-F-5'   85   44   61   61      'SHUT'  2*     0.216   3*         'Y'	7.136 /
+    'I-F-5'   85   44   62   62      'SHUT'  2*     0.216   3*         'Y'	6.565 /
+    'I-F-5'   85   44   63   63      'SHUT'  2*     0.216   3*         'Y'	6.713 /
+/
+
+
+
+-- 3030.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 18 'APR' 2016 /
+/
+
+WELSPECS 
+   'P-F-5'       'AAR'   84   41  1*       'LIQ'  7* /
+/
+
+COMPDAT 
+-- WELL        I    J    K1  K2            Sat.        CF       DIAM        KH SKIN ND        DIR   Ro 
+    'P-F-5'   84   41    1    1      'OPEN'  2*     0.216   3*         'Z'	6.859 /
+    'P-F-5'   84   41    2    2      'OPEN'  2*     0.216   3*         'Z'	6.885 /
+    'P-F-5'   84   41    3    3      'OPEN'  2*     0.216   3*         'Z'	6.907 /
+    'P-F-5'   84   41    4    4      'SHUT'  2*     0.216   3*         'Z'	6.766 /
+    'P-F-5'   84   41    5    5      'SHUT'  2*     0.216   3*         'Z'	6.928 / 
+    'P-F-5'   84   41    6    6      'SHUT'  2*     0.216   3*         'Y'	7.132 /
+    'P-F-5'   84   41    7    7      'SHUT'  2*     0.216   3*         'Y'	7.140 /
+    'P-F-5'   84   41    8    8      'SHUT'  2*     0.216   3*         'Y'	6.805 /
+    'P-F-5'   84   41    9    9      'SHUT'  2*     0.216   3*         'Y'	6.686 /
+    'P-F-5'   84   41   10   10      'SHUT'  2*     0.216   3*         'Y'	6.403 /
+    'P-F-5'   84   41   11   11      'SHUT'  2*     0.216   3*         'Y'	7.303 /
+    'P-F-5'   84   41   12   12      'OPEN'  2*     0.216   3*         'Y'	6.732 /
+    'P-F-5'   84   41   13   13      'OPEN'  2*     0.216   3*         'Y'	7.124 /  
+    'P-F-5'   84   41   14   14      'OPEN'  2*     0.216   3*         'Y'	7.073 /
+    'P-F-5'   84   41   15   15      'SHUT'  2*     0.216   3*         'Y'	6.837 /         
+/
+
+GRUPTREE 
+   'PJ1'     'FIELD'  /
+   'AAR'     'PJ1'  /
+   'SRAR'     'PJ1'  /
+   'VSOU'     'PJ1'  /
+   'P_NORTH'     'PJ1'  /
+   'P_NW'     'PJ1'  /
+/
+
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    100.800   3016.900  16423.400  3*    267.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    241.050    184.220  38256.960  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    259.200   1579.900  42245.400  3*    285.200  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    199.000    227.960  32333.600  3*    218.400  1* /
+   'P-F-1C'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    276.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    207.500   1242.800  33701.000  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   7319.050  5* /
+/
+
+-- 3040.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 28 'APR' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    104.600   2907.600  16629.200  3*    271.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    329.550    159.000  52339.160  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    521.800   2394.800  82879.500  3*    254.200  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    118.400    147.880  18707.100  3*    219.700  1* /
+   'P-F-1C'      'SHUT'      'ORAT'      0.000      0.000      0.000  5* /
+   'P-F-12'      'OPEN'      'ORAT'    200.600   1177.700  31870.100  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   8809.660  5* /
+/
+
+-- 3050.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 8 'MAY' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    103.400   2883.400  16410.500  3*    271.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    315.830    137.010  50210.240  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    504.300   2406.700  80180.400  3*    249.200  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    169.100    218.120  26878.100  3*    206.400  1* /
+   'P-F-12'      'OPEN'      'ORAT'    188.500   1172.300  29953.900  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   8720.110  5* /
+/
+
+-- 3060.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 18 'MAY' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    102.100   2859.700  16271.000  3*    271.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    304.670    121.560  48569.011  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    486.600   2330.600  77557.000  3*    250.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    163.300    202.710  26018.300  3*    203.500  1* /
+   'P-F-12'      'OPEN'      'ORAT'    184.700   1153.000  29443.000  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   8536.820  5* /
+/
+
+-- 3070.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 28 'MAY' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    101.800   2882.600  16322.800  3*    271.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    303.710     78.010  48725.041  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    485.000   2349.700  77812.000  3*    250.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    119.700    150.660  19050.400  3*    201.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    184.200   1162.200  29539.700  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   8703.520  5* /
+/
+
+-- 3080.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 7 'JUN' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    102.600   2933.100  16602.400  3*    271.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    301.290     78.220  48842.490  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    484.200   2370.700  78485.700  3*    250.500  1* /
+  'P-F-15D'      'OPEN'      'ORAT'     84.800    169.630  13711.400  3*    256.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'    170.800   1086.800  27669.000  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   8257.080  5* /
+/
+
+-- 3090.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 17 'JUN' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    103.200   2987.000  16508.000  3*    270.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    307.340     80.600  49125.500  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    490.300   2425.100  78382.400  3*    250.700  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    152.300    223.060  24317.000  3*    202.900  1* /
+   'P-F-12'      'OPEN'      'ORAT'    186.000   1199.600  29756.400  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   8766.580  5* /
+/
+
+-- 3100.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 27 'JUN' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+-- ERROR: P-F-15D has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'    101.600   2982.200  16334.500  3*    270.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    301.930     80.410  48576.170  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    481.900   2419.700  77508.900  3*    251.000  1* /
+  'P-F-15D'      'OPEN'      'ORAT'    140.700    198.330  22601.800  3*    199.700  1* /
+   'P-F-12'      'OPEN'      'ORAT'    182.900   1196.900  29424.700  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   8726.010  5* /
+/
+
+-- 3110.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 7 'JUL' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'     71.900   1998.600  11751.800  3*    266.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    307.810     70.350  49922.010  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    472.800   2371.400  76631.500  3*    251.600  1* /
+  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    195.000  1* /
+   'P-F-12'      'OPEN'      'ORAT'    147.700    902.100  24037.100  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   6502.650  5* /
+/
+
+-- 3120.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 17 'JUL' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    298.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    339.270     82.360  54284.220  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    449.700   2520.000  71938.900  3*    253.300  1* /
+  'P-F-15D'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
+   'P-F-12'      'OPEN'      'ORAT'    131.500    900.200  21004.900  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   5666.960  5* /
+/
+
+-- 3130.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 27 'JUL' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    299.000  1* /
+    'P-F-5'      'OPEN'      'ORAT'    337.590     91.310  53809.920  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    450.300   2806.600  71746.600  3*    251.200  1* /
+   'P-F-12'      'OPEN'      'ORAT'    128.100    967.800  20399.000  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   4343.220  5* /
+/
+
+-- 3140.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 6 'AUG' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+WCONHIST 
+   'P-F-14'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
+    'P-F-5'      'OPEN'      'ORAT'    325.160     91.180  52118.000  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    432.500   2797.500  69344.500  3*    252.600  1* /
+   'P-F-12'      'OPEN'      'ORAT'     81.300    599.100  13136.200  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   5235.360  5* /
+/
+
+-- 3150.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 16 'AUG' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+WCONHIST 
+    'P-F-5'      'OPEN'      'ORAT'    368.140     91.330  57567.871  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    490.400   2804.100  76668.500  3*    252.300  1* /
+   'P-F-12'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   4498.040  5* /
+/
+
+-- 3160.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 26 'AUG' 2016 /
+/
+
+-- ERROR: P-F-5 has flow but no grid connection
+-- ERROR: P-F-11B has flow but no grid connection
+WCONHIST 
+    'P-F-5'      'OPEN'      'ORAT'     32.720      7.750   5220.960  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    513.000   2932.900  87963.000  3*    251.100  1* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'   1556.360  5* /
+/
+
+-- 3170.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 5 'SEP' 2016 /
+/
+
+-- ERROR: P-F-11B has flow but no grid connection
+WCONHIST 
+    'P-F-5'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    520.000   3000.000  89000.000  3*    252.000  1* /
+/
+
+WCONINJE 
+    'I-F-4'     'WATER'  1*      'RATE'      0.000  5* /
+/
+
+-- 3180.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 15 'SEP' 2016 /
+/
+
+WCONHIST 
+    'P-F-5'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
+  'P-F-11B'      'OPEN'      'ORAT'    520.000   3000.000  89000.000  3*    252.000  1* /
+/
+
+
+-- 3190.000000 days from start of simulation ( 1 'JAN' 2008 )
+DATES
+ 20 'SEP' 2016 /
+/
+
+WCONHIST 
+    'P-F-5'      'OPEN'      'ORAT'      0.000      0.000      0.000  5* /
+  'P-F-11B'      'OPEN'      'ORAT'      0.000      0.000      0.000  3*    252.000  1* /
+/
+-- END OF SIMULATION
