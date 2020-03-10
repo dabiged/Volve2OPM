@@ -32,7 +32,7 @@ There are some clear difference between the two (e.g. the Equinor model has addi
 
 ## Authors
 
-* [Chris Dinneen](https://github.com/dbiged)
+* [Chris Dinneen](https://github.com/dabiged)
 
 ## License
 
