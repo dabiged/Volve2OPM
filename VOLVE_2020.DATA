@@ -62,7 +62,7 @@
 -- Commence RUNSPEC section
 RUNSPEC
 
-NOSIM
+--NOSIM
 
 TITLE
 2020 Volve on OPM flow      
