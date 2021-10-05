@@ -1,0 +1,6 @@
+*.log linguist-detectable=false
+*.pl linguist-detectable=false
+*.pro linguist-detectable=false
+*.prolog linguist-detectable=false
+*.yap linguist-detectable=false
+*.INC linguist-detectable=false
